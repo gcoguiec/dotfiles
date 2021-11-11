@@ -1,0 +1,341 @@
+scan_timeout = 10
+add_newline = false
+format = """
+[┌聾](fg:#a3feff)$username [at](fg:#b362ff) $hostname [in](fg:#f89f00) $directory$cmd_duration
+[└聾](fg:#a3feff)$character"""
+right_format = """
+$git_branch$git_status$package$aws$crystal$deno$elixir$erlang$golang$julia$kotlin$lua$nix_shell$nodejs$python$rlang$rust$swift$terraform$zig
+"""
+
+[username]
+show_always = true
+format = "[$user]($style)"
+style_user = "fg:white"
+style_root = "reverse fg:white"
+
+[hostname]
+ssh_only = false
+format = "[$hostname]($style)"
+style = "fg:white"
+trim_at = ""
+
+[directory]
+format = "[$path]($style)[( $read_only)]($read_only_style) "
+style = "fg:white"
+truncation_length = 3
+truncate_to_repo = false
+fish_style_pwd_dir_length = 2
+home_symbol = ""
+use_logical_path = true
+read_only_style = "fg:#f6d200"
+read_only = " "
+
+[character]
+success_symbol = "[ﬦ](fg:white)"
+error_symbol = "[ﬦ](fg:white)"
+vicmd_symbol = "[ﬦ](fg:white)"
+
+[git_branch]
+format = "[on](fg:#5c5a56) [$symbol $branch]($style)"
+symbol = ""
+style = "fg:white"
+truncation_length = 24
+truncation_symbol = "…"
+
+[git_commit]
+disabled = true
+
+[git_state]
+disabled = true
+
+[git_metrics]
+disabled = true
+
+[git_status]
+format = '[:](fg:#5c5a56)$ahead_behind '
+conflicted = "[](fg:#fc678d)"
+ahead = "[](fg:#fc678d)"
+behind = "[](fg:#fc678d)"
+diverged = "[](fg:#fc678d)"
+up_to_date = "[](fg:#80ffbb)"
+deleted = ""
+stashed = ""
+modified = ""
+staged = ""
+renamed = ""
+untracked = ""
+style = ""
+
+[aws]
+format = "[](fg:#5c5a56) [$symbol](fg:#f89f00) [($profile/)$region(/$duration)]($style) "
+symbol = ""
+style = "fg:white"
+expiration_symbol = "鬒"
+disabled = true
+
+[battery]
+disabled = true
+
+[cmake]
+format = "[](fg:#5c5a56) [$symbol](fg:#a4ff86)[( $version)]($style) "
+symbol = "△"
+version_format = "${raw}"
+detect_extensions = ["cmake"]
+detect_files = ["CMakeLists.txt", "CMakeCache.txt"]
+detect_folders = []
+
+[cobol]
+disabled = true
+
+[cmd_duration]
+format = "[$duration]($style)"
+style = "fg:#444168"
+min_time = 0
+show_milliseconds = true
+show_notifications = false
+
+[conda]
+disabled = true
+
+[crystal]
+format = "[](fg:#5c5a56) [$symbol](fg:#5c5a56) [$version]($style) "
+symbol = ""
+version_format = "${raw}"
+style = "fg:#b362ff"
+detect_extensions = ["cr"]
+detect_files = ["shard.yml"]
+detect_folders = []
+
+[dart]
+disabled = true
+
+[deno]
+format = "[](fg:#5c5a56) $symbol [$version]($style) "
+version_format = "${raw}"
+symbol = "🦕"
+style = "fg:white"
+detect_extensions = []
+detect_files = ["mod.ts", "deps.ts"]
+detect_folders = []
+
+[docker_context]
+symbol = ""
+disabled = true
+
+[dotnet]
+disabled = true
+
+[elixir]
+format = "[](fg:#5c5a56) [$symbol](fg:#b362ff} [$version(/$otp_version)]($style) "
+version_format = "${raw}"
+symbol = ""
+style = "fg:white"
+detect_extensions = []
+detect_files = ["mix.exs"]
+detect_folders = []
+
+[elm]
+disabled = true
+
+[env_var]
+disabled = true
+
+[erlang]
+format = "[](fg:#5c5a56) [$symbol](fg:#ec3a37} [$version]($style) "
+version_format = "${raw}"
+symbol = ""
+style = "fg:white"
+detect_extensions = []
+detect_files = ["rebar.config", "elang.mk"]
+detect_folders = []
+
+[fill]
+disabled = true
+
+[gcloud]
+disabled = true
+
+[golang]
+format = "[](fg:#5c5a56) [$symbol](fg:white} [$version]($style) "
+version_format = "${raw}"
+symbol = ""
+style = "fg:white"
+detect_extensions = ["go"]
+detect_files = ["go.mod", "go.sum", "glide.yaml", "Gopkg.yml", "Gopkg.lock", ".go-version"]
+detect_folders = ["Godeps"]
+
+[helm]
+disabled = true
+
+[java]
+disabled = true
+
+[jobs]
+disabled = true
+
+[julia]
+format = "[](fg:#5c5a56) [$symbol](fg:white} [$version]($style) "
+version_format = "${raw}"
+symbol = ""
+style = "fg:white"
+detect_extensions = ["jl"]
+detect_files = ["Project.toml", "Manifest.toml"]
+detect_folders = []
+
+[kotlin]
+format = "[](fg:#5c5a56) [$symbol](fg:#ec407a} [$version]($style) "
+version_format = "${raw}"
+symbol = "🅺"
+style = "fg:white"
+detect_extensions = ["kt", "kts"]
+detect_files = []
+detect_folders = []
+
+[kubernetes]
+disabled = true
+
+[lua]
+format = "[](fg:#5c5a56) [$symbol](fg:#a3feff} [$version]($style) "
+version_format = "${raw}"
+symbol = ""
+style = "fg:white"
+detect_extensions = ["lua"]
+detect_files = 	[".lua-version"]
+detect_folders = ["lua"]
+
+[memory_usage]
+disabled = true
+
+[hg_branch]
+disabled = true
+
+[nim]
+disabled = true
+
+[nix_shell]
+format = "[](fg:#5c5a56) [$symbol](fg:#5c6bc0) [$state(/$name)]($style) "
+symbol = ""
+
+[nodejs]
+format = "[](fg:#5c5a56) [$symbol](fg:#a4ff86) [$version]($style) "
+version_format = "${raw}"
+symbol = ""
+style = "fg:white"
+detect_extensions = []
+detect_folders = []
+detect_files = [".nvmrc"]
+not_capable_style = "fg:#fc678d"
+
+[ocaml]
+disabled = true
+
+[openstack]
+disabled = true
+
+[package]
+format = "[](fg:#5c5a56) [$symbol](fg:#deac82) [$version]($style) "
+version_format = "${raw}"
+symbol = ""
+style = "fg:white"
+display_private = true
+disabled = true
+
+[perl]
+disabled = true
+
+[php]
+disabled = true
+
+[pulumi]
+disabled = true
+
+[purescript]
+disabled = true
+
+[python]
+format = '[](fg:#5c5a56) [$symbol](fg:#5c5a56) [${pyenv_prefix}/${version}(/$virtualenv)]($style) '
+version_format = "${raw}"
+symbol = ""
+style = "fg:white"
+python_binary = ["python3"]
+detect_extensions = ["py", "pyc"]
+detect_folders = []
+detect_files = [".python-version", "Pipfile", "requirements.txt"]
+
+[rlang]
+format = "[](fg:#5c5a56) [$symbol](boldfg:#2569bc) [$version]($style) "
+version_format = "${raw}"
+symbol = "R"
+style = "fg:white"
+detect_extensions = ["R", "Rd", "Rmd", "Rproj", "Rsx"]
+detect_files = [".Rprofile"]
+detect_folders = [".Rproj.user"]
+
+[red]
+disabled = true
+
+[ruby]
+disabled = true
+
+[rust]
+format = "[](fg:#5c5a56) [$symbol](fg:#fb7044) [$version]($style) "
+version_format = "${raw}"
+symbol = ""
+style = "fg:white"
+detect_extensions = ["rs"]
+detect_files = ["Cargo.toml"]
+detect_folders = []
+
+[scala]
+disabled = true
+
+[shell]
+disabled = true
+
+[shlvl]
+disabled = true
+
+[singularity]
+disabled = true
+
+[status]
+disabled = true
+
+[swift]
+format = "[](fg:#5c5a56) [$symbol](fg:#e37933) [$version]($style)"
+version_format = "${raw}"
+symbol = ""
+style = "fg:white"
+detect_extensions = ["swift"]
+detect_files = ["Package.swift"]
+detect_folders = []
+
+[terraform]
+format = "[](fg:#5c5a56) [$symbol](fg:#b362ff) [$workspace]($style) "
+version_format = "${raw}"
+symbol = ""
+style = "fg:white"
+detect_extensions = ["tf", "tfplan", "tfstate"]
+detect_files = []
+detect_folders = [".terraform"]
+
+[time]
+disabled = true
+
+[vagrant]
+disabled = true
+
+[vlang]
+disabled = true
+
+[vcsh]
+disabled = true
+
+[zig]
+format = "[](fg:#5c5a56) [$symbol](fg:#f6d200) [$version]($style)"
+version_format = "${raw}"
+symbol = "⚡️"
+style = "fg:white"
+detect_extensions = ["zig"]
+detect_files = []
+detect_folders = []
