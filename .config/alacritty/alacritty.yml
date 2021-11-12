@@ -95,9 +95,8 @@ key_bindings:
   - { key: RBracket, mods: Alt, chars: '}' }
   - { key: LBracket, mods: Alt|Shift, chars: '[' }
   - { key: RBracket, mods: Alt|Shift, chars: ']' }
-  - { key: 37, mods: Alt|Shift, chars: '|' }
-  - { key: 45, mods: Alt, chars: '~' }
-  - { key: 47, mods: Alt|Shift, chars: '\' }
+  - { key: L, mods: Alt|Shift, chars: '|' }
+  - { key: Period, mods: Alt|Shift, chars: '\' }
   - { key: Key0, mods: Command, action: ResetFontSize }
   - { key: Key0, mods: Command|Shift, action: ResetFontSize }
   - { key: Minus, mods: Command|Shift, action: DecreaseFontSize }
