@@ -1,0 +1,19 @@
+suppress_verbose_help_message(1);
+page_output_immediately(1);
+page_screen_output(0);
+crash_dumps_octave_core(0);
+sigterm_dumps_octave_core(0);
+sighup_dumps_octave_core(0);
+
+PS1('\[\033[33m\]\W\[\033[0m\]:\# >> ');
+PS2('\\[\\033[01;33m\\]\-> \\[\\033[0m\\]');
+
+EDITOR('codium --wait');
+edit mode 'async';
+
+function man (name)
+  help (char (name))
+endfunction
+
+set(0, "defaultaxesfontsize", 16);
+set(0, "defaultlinelinewidth", 2);
