@@ -1,0 +1,38 @@
+[include]
+  path = config.user
+  path = config.os
+  path = config.aliases
+  path = config.github
+
+[core]
+  excludesfile = ignore
+  attributesfile = attributes
+
+[http]
+  sslVerify = true
+
+[color]
+  ui = auto
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = auto
+
+[help]
+  autocorrect = 1
+
+[init]
+  defaultBranch = main
+
+[push]
+  default = tracking
+  followTags = true
+
+[pack]
+  threads = 0
+
+[status]
+  showStash = true
+
+[branch]
+  autosetuprebase = always
