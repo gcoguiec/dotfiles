@@ -1,0 +1,25 @@
+# brakets
+regexp=\[.+?\]
+colours=cyan
+count=more
+=======
+# braces
+regexp=\(.+?\)
+colours=cyan
+count=more
+=======
+# pid
+regexp=^\w+\s+(\s+)?\d+\s
+colours=bold yellow
+=======
+# user
+regexp=^\w+\s+
+colours=bold blue
+=======
+# arg
+regexp=\s(\-{1,2}\w+\=?)+\s?
+colours=bold green
+=======
+# darken root's processes
+regexp=^root .*$
+colours=bold black

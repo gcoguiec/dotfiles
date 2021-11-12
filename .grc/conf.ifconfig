@@ -1,0 +1,15 @@
+# ip number
+regexp=\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}
+colours=bold yellow
+=======
+# iface
+regexp=\w+\d{1,3}\:\s
+colours=bold blue
+=======
+# active
+regexp=active
+colours=bold green
+=======
+# inactive
+regexp=inactive
+colours=bold red
