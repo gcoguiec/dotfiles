@@ -195,7 +195,7 @@ detect_folders = []
 disabled = true
 
 [lua]
-format = "[](fg:#5c5a56) [$symbol](fg:#a3feff} [$version]($style) "
+format = "[](fg:#5c5a56) [$symbol](fg:#a3feff) [$version]($style) "
 version_format = "${raw}"
 symbol = ""
 style = "fg:white"

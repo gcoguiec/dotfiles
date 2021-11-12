@@ -96,7 +96,7 @@ key_bindings:
   - { key: LBracket, mods: Alt|Shift, chars: '[' }
   - { key: RBracket, mods: Alt|Shift, chars: ']' }
   - { key: 37, mods: Alt|Shift, chars: '|' }
-  - { key: Grave, mods: Alt, chars: '~' }
+  - { key: 45, mods: Alt, chars: '~' }
   - { key: 47, mods: Alt|Shift, chars: '\' }
   - { key: Key0, mods: Command, action: ResetFontSize }
   - { key: Key0, mods: Command|Shift, action: ResetFontSize }
