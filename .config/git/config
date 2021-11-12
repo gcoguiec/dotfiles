@@ -5,8 +5,8 @@
   path = config.github
 
 [core]
-  excludesfile = ignore
-  attributesfile = attributes
+  excludesfile = ~/.config/git/ignore
+  attributesfile = ~/.config/git/attributes
 
 [http]
   sslVerify = true
