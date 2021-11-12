@@ -1,0 +1,15 @@
+--pretty
+--max-columns=80
+--max-columns-preview
+--hidden
+--smart-case
+--sort=path
+--engine=auto
+
+--type-add web:*.{html,css,scss,js,ts,tsx,jsx,vue,svelte}
+
+--glob=!{package-lock.json}
+--glob=!*.{lock}
+--glob=!.git/
+--glob=!.yarn/
+--glob=!.cache/
