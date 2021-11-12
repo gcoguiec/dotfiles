@@ -1,0 +1,7 @@
+brew 'openscad'
+brew 'eagle'
+brew 'kicad'
+brew 'ltspice'
+brew 'platformio'
+brew 'stlink'
+brew 'binwalk'

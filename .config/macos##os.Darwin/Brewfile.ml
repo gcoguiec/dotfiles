@@ -1,0 +1,5 @@
+brew 'python3'
+brew 'pip3'
+brew 'miniforge'
+brew 'octave'
+brew 'r'

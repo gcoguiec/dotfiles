@@ -1,0 +1,10 @@
+brew 'mas'
+
+mas 'Xcode', id: 497799835
+mas 'Numbers', id: 409203825
+mas 'Pages', id: 409201541
+mas 'Keynote', id: 409183694
+mas 'Telegram', id: 747648890
+mas 'Pixelmator Pro', id: 1289583905
+mas 'Ultra Character Map', id: 520265986
+mas 'The Unarchiver', id: 425424353
