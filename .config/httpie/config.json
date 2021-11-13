@@ -1,0 +1,17 @@
+{
+  "__meta__": {
+    "about": "HTTPie configuration file",
+    "help": "https://httpie.org/doc#config",
+    "httpie": "2.6.0"
+  },
+  "implicit_content_type": "json",
+  "default_options": [
+    "--follow",
+    "--max-redirects=15",
+    "--pretty=all",
+    "--style=material",
+    "--default-scheme=https",
+    "--session-read-only",
+    "~/.httpie/headers.json"
+  ]
+}
