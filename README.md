@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/gcoguiec/dotfiles/blob/main/LICENSE">
+  <a href="https://github.com/gcoguiec/dotfiles/blob/main/LICENSE.md">
     <img src="https://img.shields.io/github/license/gcoguiec/dotfiles?style=flat-square&label=License"
          alt="License"/>
   </a>
