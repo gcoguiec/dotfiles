@@ -21,7 +21,19 @@
 
 ## Table of Contents
 
+- [Dependencies](#dependencies)
+- [Installation](#installation)
 - [License](#license)
+
+## Dependencies
+
+- [yadm](https://yadm.io/docs/install)
+
+## Installation
+
+```sh
+yadm clone --recursive https://github.com/gcoguiec/dotfiles.git
+```
 
 ## License
 
