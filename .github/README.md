@@ -2,7 +2,7 @@
 <br>
 <p align="center">
   <img src="https://raw.githubusercontent.com/gcoguiec/dotfiles/main/.github/logo.png"
-       width="100"
+       width="150"
        alt="Dotfiles"/>
 </p>
 
