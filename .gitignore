@@ -3,4 +3,7 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 Brewfile.lock.json
+
 .config/httpie/headers.json
+.ssh
+.gnupg
