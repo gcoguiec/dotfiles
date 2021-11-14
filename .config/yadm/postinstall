@@ -11,4 +11,6 @@ if [ "$system_type" = "Darwin" ]; then
   brew bundle -f ~/.config/macos/Brewfile.hw
 fi
 
-pip3 install capstone unicorn keystone-engine ropper
+if ! command -v pip3 >/dev/null 2>&1; then
+  pip3 install capstone unicorn keystone-engine ropper rpyc pygments
+fi
