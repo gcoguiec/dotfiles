@@ -2,7 +2,7 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
-Brewfile.lock.json
+Brewfile*.lock.json
 
 .config/httpie/headers.json
 .ssh

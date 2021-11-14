@@ -32,7 +32,7 @@
 ## Installation
 
 ```sh
-yadm clone --recursive https://github.com/gcoguiec/dotfiles.git
+yadm clone https://github.com/gcoguiec/dotfiles.git
 ```
 
 ## License
