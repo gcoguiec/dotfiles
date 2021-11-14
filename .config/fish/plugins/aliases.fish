@@ -54,3 +54,7 @@ end
 if which bat > /dev/null 2>&1
   alias cat='bat'
 end
+
+if which zellij > /dev/null 2>&1
+  alias ze='zellij'
+end
