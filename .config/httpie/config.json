@@ -9,7 +9,7 @@
     "--follow",
     "--max-redirects=15",
     "--pretty=all",
-    "--style=material",
+    "--style=paraiso-dark",
     "--default-scheme=https",
     "--session-read-only",
     "~/.httpie/headers.json"
