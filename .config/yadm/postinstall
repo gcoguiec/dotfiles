@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+system_type=$(uname -s)
+
+if [ "$system_type" = "Darwin" ]; then
+  brew bundle -f ~/.config/macos/Brewfile
+  brew bundle -f ~/.config/macos/Brewfile.cask
+  brew bundle -f ~/.config/macos/Brewfile.mas
+  brew bundle -f ~/.config/macos/Brewfile.ops
+  brew bundle -f ~/.config/macos/Brewfile.ml
+  brew bundle -f ~/.config/macos/Brewfile.hw
+fi
+
+pip3 install capstone unicorn keystone-engine ropper
