@@ -1,6 +1,7 @@
 tap 'homebrew/cask'
+tap 'homebrew/cask-versions'
 
-cask_args appdir: '~/Applications', require_sha: true
+cask_args appdir: '~/Applications'
 
 cask '1password'
 cask 'alacritty'
@@ -17,7 +18,7 @@ cask 'insomnia'
 cask 'keepingyouawake'
 cask 'postbox'
 cask 'brave-browser'
-cask 'postgres'
+cask 'postgres-unofficial'
 cask 'little-snitch'
 cask 'sublime-merge'
 cask 'rar'

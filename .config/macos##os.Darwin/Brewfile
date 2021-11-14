@@ -26,7 +26,7 @@ brew 'make'
 brew 'cmake'
 brew 'gpg'
 brew 'pkg-config', link: true
-brew 'llvm', args: ['with-toolchain']
+brew 'llvm'
 brew 'lua'
 brew 'luajit'
 brew 'luarocks'
@@ -49,7 +49,6 @@ brew 'prisma'
 
 brew 'gh'
 brew 'jq'
-brew 'unrar'
 brew 'unzip'
 brew 'ascii'
 brew 'tldr'
