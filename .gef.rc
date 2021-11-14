@@ -3,7 +3,7 @@ default_architecture = X86
 default_mode = 64
 
 [context]
-clear_screen = True
+clear_screen = False
 enable = True
 grow_stack_down = False
 ignore_registers =
@@ -23,7 +23,7 @@ show_opcodes_size = 0
 show_registers_raw = False
 show_source_code_variable_values = True
 show_stack_raw = False
-use_capstone = False
+use_capstone = True
 
 [dereference]
 max_recursion = 7
@@ -35,7 +35,7 @@ entrypoint_symbols = main _main __libc_start_main __uClibc_main start _start
 clean_on_exit = False
 
 [gef]
-autosave_breakpoints_file =
+autosave_breakpoints_file = ~/.gdb/breakpoints
 debug = False
 disable_color = False
 extra_plugins_dir = ~/.gdb/gef-extras/scripts
