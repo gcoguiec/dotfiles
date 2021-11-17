@@ -8,6 +8,7 @@ brew 'binutils'
 brew 'coreutils'
 brew 'fish'
 brew 'nushell'
+brew 'zsh' # nvim
 brew 'grc'
 brew 'glances'
 brew 'ripgrep'
