@@ -9,6 +9,7 @@ if [ "$system_type" = "Darwin" ]; then
   brew bundle -f ~/.config/macos/Brewfile.ops
   brew bundle -f ~/.config/macos/Brewfile.ml
   brew bundle -f ~/.config/macos/Brewfile.hw
+  chmod -R go-w '/usr/local/share/zsh'
 fi
 
 if ! command -v pip3 >/dev/null 2>&1; then
