@@ -11,7 +11,7 @@ if [[ -d $ZSH ]]; then
   compinit -i
 fi
 
-[[ -a $HOME/.local.zsh ]] && . $HOME/.local.zsh
+[[ -a $HOME/.local.zsh ]] && source $HOME/.local.zsh
 
 if which starship > /dev/null 2>&1; then
   eval "$(starship init zsh)"
