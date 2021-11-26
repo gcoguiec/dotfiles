@@ -15,5 +15,3 @@ fi
 if ! command -v pip3 >/dev/null 2>&1; then
   pip3 install capstone unicorn keystone-engine ropper rpyc pygments
 fi
-
-fisher install PatrickF1/fzf.fish
