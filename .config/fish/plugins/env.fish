@@ -1,7 +1,4 @@
 set -x PATH "$HOME/bin:$HOME/.bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"
-set -x PATH $PATH (brew --prefix watch)/bin
-set -x PATH $PATH (brew --prefix binutils)/bin
-
 set -gx LANG "en_US.UTF-8"
 set -gx LC_COLLATE "en_US.UTF-8"
 set -gx LC_CTYPE "en_US.UTF-8"
