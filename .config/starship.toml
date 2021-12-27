@@ -223,7 +223,7 @@ symbol = ""
 style = "fg:white"
 detect_extensions = []
 detect_folders = []
-detect_files = [".nvmrc"]
+detect_files = [".nvmrc", "package.json"]
 not_capable_style = "fg:#fc678d"
 
 [ocaml]
