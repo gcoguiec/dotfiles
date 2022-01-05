@@ -1,5 +1,3 @@
-tap 'prisma/prisma'
-
 brew 'git'
 brew 'git-lfs'
 brew 'git-extras'
