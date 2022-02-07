@@ -126,7 +126,7 @@ disabled = true
 disabled = true
 
 [elixir]
-format = "[](fg:#5c5a56) [$symbol](fg:#b362ff} [$version(/$otp_version)]($style) "
+format = "[](fg:#5c5a56) [$symbol](fg:#b362ff) [$version(/$otp_version)]($style) "
 version_format = "${raw}"
 symbol = ""
 style = "fg:white"
@@ -156,7 +156,7 @@ disabled = true
 disabled = true
 
 [golang]
-format = "[](fg:#5c5a56) [$symbol](fg:white} [$version]($style) "
+format = "[](fg:#5c5a56) [$symbol](fg:white) [$version]($style) "
 version_format = "${raw}"
 symbol = ""
 style = "fg:white"
@@ -174,7 +174,7 @@ disabled = true
 disabled = true
 
 [julia]
-format = "[](fg:#5c5a56) [$symbol](fg:white} [$version]($style) "
+format = "[](fg:#5c5a56) [$symbol](fg:white) [$version]($style) "
 version_format = "${raw}"
 symbol = ""
 style = "fg:white"
@@ -183,7 +183,7 @@ detect_files = ["Project.toml", "Manifest.toml"]
 detect_folders = []
 
 [kotlin]
-format = "[](fg:#5c5a56) [$symbol](fg:#ec407a} [$version]($style) "
+format = "[](fg:#5c5a56) [$symbol](fg:#ec407a) [$version]($style) "
 version_format = "${raw}"
 symbol = "🅺"
 style = "fg:white"
