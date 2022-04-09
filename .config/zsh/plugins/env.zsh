@@ -1,7 +1,3 @@
-PATH=$HOME/bin:$HOME/.bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
-PATH=`brew --prefix watch`/bin:$PATH
-PATH=`brew --prefix binutils`/bin:$PATH
-
 autoload colors && colors
 export LANG="en_US.UTF-8"
 export LC_COLLATE="en_US.UTF-8"

@@ -9,8 +9,6 @@ alias la='ls -a'
 alias ll='ls -l'
 alias lla='ls -la'
 alias lt='ls --tree'
-alias mv='gmv'
-alias cp='gcp'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias grep='grep --color=auto'
@@ -47,7 +45,7 @@ if which exa > /dev/null 2>&1; then
   alias ls='exa'
 fi
 
-if which duff > /dev/null 2>&1; then
+if which duf > /dev/null 2>&1; then
   alias df='duf'
 fi
 

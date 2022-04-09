@@ -1,10 +1,13 @@
 set -x PATH $PATH (brew --prefix watch)/bin
 set -x PATH $PATH (brew --prefix binutils)/bin
+set -x PATH $PATH (brew --prefix coreutils)/bin
 alias dns="dscacheutil -flushcache"
 alias up="brew update && brew upgrade && mas upgrade"
 alias brews="brew list -1"
 alias pu="pushd"
 alias po="popd"
+alias mv='gmv'
+alias cp='gcp'
 
 function ps
   switch $argv[1]
