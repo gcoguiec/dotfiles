@@ -42,7 +42,7 @@ if which codium > /dev/null 2>&1
 end
 
 if which exa > /dev/null 2>&1
-  alias ls='exa'
+  alias ls='exa --icons'
 end
 
 if which duff > /dev/null 2>&1
