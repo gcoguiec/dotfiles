@@ -21,9 +21,14 @@
 
 ## Table of Contents
 
+- [Preview](#preview)
 - [Dependencies](#dependencies)
 - [Installation](#installation)
 - [License](#license)
+
+## Preview
+
+<img src="https://raw.githubusercontent.com/gcoguiec/dotfiles/main/.github/preview.png" alt="Preview"/>
 
 ## Dependencies
 
