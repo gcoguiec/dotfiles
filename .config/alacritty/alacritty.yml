@@ -51,8 +51,8 @@ alt_send_esc: false
 custom_cursor_colors: true
 colors:
   primary:
-    background: '#201e40'
-    foreground: '#d8d8d8'
+    background: "#201e40"
+    foreground: "#d8d8d8"
   cursor:
     text: CellBackground
     cursor: CellForeground
@@ -61,46 +61,55 @@ colors:
     cursor: CellForeground
   search:
     matches:
-     foreground: CellForeground
-     background: '#b25a03'
+      foreground: CellForeground
+      background: "#b25a03"
     focused_match:
-     foreground: CellForeground
-     background: '#3c2e6a'
+      foreground: CellForeground
+      background: "#3c2e6a"
   line_indicator:
-    foreground: '#a898ed'
-    background: '#201e40'
+    foreground: "#a898ed"
+    background: "#201e40"
   selection:
     text: CellForeground
-    background: '#7747b3'
+    background: "#7747b3"
   normal:
-    black: '#5c5a56'
-    red: '#e09a98'
-    green: '#bcc8b1'
-    yellow: '#e9d2bc'
-    blue: '#afc8d7'
-    magenta: '#dfcae1'
-    cyan: '#bdeae3'
-    white: '#f2f2f2'
+    black: "#5c5a56"
+    red: "#e09a98"
+    green: "#bcc8b1"
+    yellow: "#e9d2bc"
+    blue: "#afc8d7"
+    magenta: "#dfcae1"
+    cyan: "#bdeae3"
+    white: "#f2f2f2"
   bright:
-    black: '#5c5a56'
-    red: '#e09a98'
-    green: '#bcc8b1'
-    yellow: '#e9d2bc'
-    blue: '#afc8d7'
-    magenta: '#dfcae1'
-    cyan: '#bdeae3'
-    white: '#f2f2f2'
+    black: "#5c5a56"
+    red: "#e09a98"
+    green: "#bcc8b1"
+    yellow: "#e9d2bc"
+    blue: "#afc8d7"
+    magenta: "#dfcae1"
+    cyan: "#bdeae3"
+    white: "#f2f2f2"
 key_bindings:
-  - { key: LBracket, mods: Alt, chars: '{' }
-  - { key: RBracket, mods: Alt, chars: '}' }
-  - { key: LBracket, mods: Alt|Shift, chars: '[' }
-  - { key: RBracket, mods: Alt|Shift, chars: ']' }
-  - { key: L, mods: Alt|Shift, chars: '|' }
+  - { key: LBracket, mods: Alt, chars: "{" }
+  - { key: RBracket, mods: Alt, chars: "}" }
+  - { key: LBracket, mods: Alt|Shift, chars: "[" }
+  - { key: RBracket, mods: Alt|Shift, chars: "]" }
+  - { key: N, mods: Alt|Shift, chars: "\x1bn" }
+  - { key: H, mods: Alt|Shift, chars: "\x1bh" }
+  - { key: L, mods: Alt|Shift, chars: "\x1bl" }
+  - { key: J, mods: Alt|Shift, chars: "\x1bj" }
+  - { key: K, mods: Alt|Shift, chars: "\x1bk" }
+  - { key: Equals, mods: Alt, chars: "\x1b=" }
+  - { key: Equals, mods: Alt|Shift, chars: "\x1b+" }
+  - { key: Minus, mods: Alt|Shift, chars: "\x1b-" }
+  - { key: L, mods: Alt|Shift, chars: "|" }
   - { key: Period, mods: Alt|Shift, chars: '\' }
   - { key: Key0, mods: Command, action: ResetFontSize }
   - { key: Key0, mods: Command|Shift, action: ResetFontSize }
   - { key: Minus, mods: Command|Shift, action: DecreaseFontSize }
   - { key: Equals, mods: Command|Shift, action: IncreaseFontSize }
+
 debug:
   render_timer: false
   persistent_logging: false
