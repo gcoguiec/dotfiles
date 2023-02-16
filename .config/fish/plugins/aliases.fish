@@ -1,4 +1,5 @@
 alias k='kubectl'
+alias ks='kubectl --namespace=kube-system'
 alias i='iex'
 alias m='mix'
 alias c='clear'
