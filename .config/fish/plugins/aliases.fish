@@ -28,7 +28,7 @@ alias gcc="colourify gcc"
 alias diff="colourify diff"
 alias docker-killall='docker stop (docker ps -a -q)'
 alias docker-zombiehunt='docker rmi -f (docker images -f "dangling=true" -q)'
-alias docker-prune='docker image prune --all && docker volume prune -f'
+alias docker-prune='docker image prune --all -f && docker volume prune --all -f'
 
 if which nvim > /dev/null 2>&1
   alias vim=nvim

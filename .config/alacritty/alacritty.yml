@@ -46,7 +46,6 @@ scrolling:
   history: 10000
 draw_bold_text_with_bright_colors: false
 live_config_reload: true
-alt_send_esc: false
 custom_cursor_colors: true
 colors:
   primary:
@@ -94,11 +93,11 @@ key_bindings:
   - { key: RBracket, mods: Alt, chars: "}" }
   - { key: LBracket, mods: Alt|Shift, chars: "[" }
   - { key: RBracket, mods: Alt|Shift, chars: "]" }
-  - { key: N, mods: Alt|Shift, chars: "\x1bn" }
-  - { key: H, mods: Alt|Shift, chars: "\x1bh" }
-  - { key: L, mods: Alt|Shift, chars: "\x1bl" }
-  - { key: J, mods: Alt|Shift, chars: "\x1bj" }
-  - { key: K, mods: Alt|Shift, chars: "\x1bk" }
+  - { key: N, mods: Command|Shift, chars: "\x1bn" }
+  - { key: H, mods: Command|Shift, chars: "\x1bh" }
+  - { key: L, mods: Command|Shift, chars: "\x1bl" }
+  - { key: J, mods: Command|Shift, chars: "\x1bj" }
+  - { key: K, mods: Command|Shift, chars: "\x1bk" }
   - { key: Equals, mods: Alt, chars: "\x1b=" }
   - { key: Equals, mods: Alt|Shift, chars: "\x1b+" }
   - { key: Minus, mods: Alt|Shift, chars: "\x1b-" }
