@@ -27,7 +27,7 @@ alias gcc="colourify gcc"
 alias diff="colourify diff"
 alias docker-killall='docker stop (docker ps -a -q)'
 alias docker-zombiehunt='docker rmi -f (docker images -f "dangling=true" -q)'
-alias docker-prune='docker image prune --all -f && docker volume prune -all -f'
+alias docker-prune='yes | docker image prune --all && yes | docker volume prune --all'
 alias gdb='gdb --quiet'
 alias colourify=`which grc`" -es --colour=auto"
 
