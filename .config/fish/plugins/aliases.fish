@@ -30,13 +30,7 @@ alias docker-killall='docker stop (docker ps -a -q)'
 alias docker-zombiehunt='docker rmi -f (docker images -f "dangling=true" -q)'
 alias docker-prune='yes | docker image prune --all && yes | docker volume prune --all'
 
-if which nvim > /dev/null 2>&1
-  alias vim=nvim
-  set -gx EDITOR 'nvim'
-end
-
 if which codium > /dev/null 2>&1
-  alias code=codium
   if not set -q EDITOR
     set -gx EDITOR 'codium --wait'
   end

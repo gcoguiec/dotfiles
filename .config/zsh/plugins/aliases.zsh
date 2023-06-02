@@ -31,11 +31,6 @@ alias docker-prune='yes | docker image prune --all && yes | docker volume prune 
 alias gdb='gdb --quiet'
 alias colourify=`which grc`" -es --colour=auto"
 
-if which nvim > /dev/null 2>&1; then
-  alias vim=nvim
-  export EDITOR='nvim'
-fi
-
 if which codium > /dev/null 2>&1; then
   alias code=codium
   [[ -z "${EDITOR}" ]] && export EDITOR='codium --wait'
