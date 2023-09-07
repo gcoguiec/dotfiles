@@ -7,6 +7,7 @@
 [core]
   excludesfile = ~/.config/git/ignore
   attributesfile = ~/.config/git/attributes
+	editor = codium --wait
 
 [http]
   sslVerify = true

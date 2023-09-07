@@ -1,6 +1,11 @@
 [user]
   useConfigOnly = true
 
+[user "gcoguiec"]
+  name = Guillaume 'Yugo' Coguiec
+  email = mail@gcoguiec.com
+  signingkey = E13F90D0CC67E8A8
+
 [user "logical"]
   name = Guillaume 'Yugo' Coguiec
   email = guillaume@logical.work

@@ -36,8 +36,8 @@ if which codium > /dev/null 2>&1
   end
 end
 
-if which exa > /dev/null 2>&1
-  alias ls='exa --icons'
+if which eza > /dev/null 2>&1
+  alias ls='eza --icons'
 end
 
 if which duff > /dev/null 2>&1

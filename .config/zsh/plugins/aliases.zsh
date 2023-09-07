@@ -36,8 +36,8 @@ if which codium > /dev/null 2>&1; then
   [[ -z "${EDITOR}" ]] && export EDITOR='codium --wait'
 fi
 
-if which exa > /dev/null 2>&1; then
-  alias ls='exa --icons'
+if which eza > /dev/null 2>&1; then
+  alias ls='eza --icons'
 fi
 
 if which duf > /dev/null 2>&1; then
