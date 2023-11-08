@@ -206,6 +206,9 @@ defaults write com.apple.messageshelper.MessageController SOInputLineSettings -d
 # only use UTF-8 in Terminal.app
 defaults write com.apple.terminal StringEncodings -array 4
 
+# disable new redesigned cursor
+defaults write /Library/Preferences/FeatureFlags/Domain/UIKit.plist redesigned_text_cursor -dict-add Enabled -bool NO
+
 # kill affected applications
 for app in "Activity Monitor" "cfprefsd" "Dock" "Finder" "SystemUIServer"; do
 	killall "${app}" > /dev/null 2>&1
