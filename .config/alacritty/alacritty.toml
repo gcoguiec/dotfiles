@@ -1,0 +1,206 @@
+live_config_reload = true
+working_directory = "None"
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+[colors.bright]
+black = "#5c5a56"
+blue = "#afc8d7"
+cyan = "#bdeae3"
+green = "#bcc8b1"
+magenta = "#dfcae1"
+red = "#e09a98"
+white = "#f2f2f2"
+yellow = "#e9d2bc"
+
+[colors.cursor]
+cursor = "CellForeground"
+text = "CellBackground"
+
+[colors.line_indicator]
+background = "#201e40"
+foreground = "#a898ed"
+
+[colors.normal]
+black = "#5c5a56"
+blue = "#afc8d7"
+cyan = "#bdeae3"
+green = "#bcc8b1"
+magenta = "#dfcae1"
+red = "#e09a98"
+white = "#f2f2f2"
+yellow = "#e9d2bc"
+
+[colors.primary]
+background = "#201e40"
+foreground = "#d8d8d8"
+
+[colors.search.focused_match]
+background = "#3c2e6a"
+foreground = "CellForeground"
+
+[colors.search.matches]
+background = "#b25a03"
+foreground = "CellForeground"
+
+[colors.selection]
+background = "#7747b3"
+text = "CellForeground"
+
+[colors.vi_mode_cursor]
+cursor = "CellForeground"
+text = "CellBackground"
+
+[cursor]
+unfocused_hollow = true
+vi_mode_style = "None"
+
+[cursor.style]
+blinking = "Off"
+shape = "Beam"
+
+[debug]
+persistent_logging = false
+print_events = false
+render_timer = false
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 12
+
+[font.bold]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Regular"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Italic"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Regular"
+
+[[keyboard.bindings]]
+chars = "{"
+key = "LBracket"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "}"
+key = "RBracket"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "["
+key = "LBracket"
+mods = "Alt|Shift"
+
+[[keyboard.bindings]]
+chars = "]"
+key = "RBracket"
+mods = "Alt|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001Bn"
+key = "N"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001Bh"
+key = "H"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001Bl"
+key = "L"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001Bj"
+key = "J"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001Bk"
+key = "K"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B="
+key = "Equals"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001B+"
+key = "Equals"
+mods = "Alt|Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B-"
+key = "Minus"
+mods = "Alt|Shift"
+
+[[keyboard.bindings]]
+chars = "|"
+key = "L"
+mods = "Alt|Shift"
+
+[[keyboard.bindings]]
+chars = '\'
+key = "Period"
+mods = "Alt|Shift"
+
+[[keyboard.bindings]]
+action = "ResetFontSize"
+key = "Key0"
+mods = "Command"
+
+[[keyboard.bindings]]
+action = "ResetFontSize"
+key = "Key0"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "Minus"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Equals"
+mods = "Command|Shift"
+
+[mouse]
+hide_when_typing = true
+
+[scrolling]
+history = 10000
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
+
+[window]
+decorations = "full"
+dynamic_padding = true
+dynamic_title = true
+startup_mode = "Windowed"
+
+[window.dimensions]
+columns = 0
+lines = 0
+
+[window.padding]
+x = 0
+y = 0
+
+[window.position]
+x = 0
+y = 0
