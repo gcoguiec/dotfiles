@@ -25,13 +25,17 @@ config.font_size = 12
 config.line_height = 0.95
 config.front_end = 'WebGpu'
 config.webgpu_power_preference = 'HighPerformance'
-config.window_decorations = 'RESIZE|MACOS_FORCE_DISABLE_SHADOW'
+config.window_decorations = 'TITLE|RESIZE|MACOS_FORCE_DISABLE_SHADOW'
 config.window_close_confirmation = 'NeverPrompt'
 config.window_padding = {
   left = 3,
   right = 3,
-  top = 2,
+  top = 3,
   bottom = 1
+}
+config.inactive_pane_hsb = {
+  saturation = 1.0,
+  brightness = 0.9
 }
 config.window_frame = {
   font = wezterm.font 'JetBrainsMono Nerd Font Mono',
@@ -77,7 +81,6 @@ config.colors = {
     '#f2f2f2' -- bright white
   }
 }
-
 config.keys = {
   {
     key = 'k',
