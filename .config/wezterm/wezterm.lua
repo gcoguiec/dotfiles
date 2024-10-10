@@ -89,6 +89,11 @@ config.keys = {
       act.ClearScrollback 'ScrollbackAndViewport',
       act.SendKey { key = 'L', mods = 'CTRL' }
     }
+  },
+  {
+    key = 'n',
+    mods = 'OPT',
+    action = act { SendString = '~' }
   }
 }
 
